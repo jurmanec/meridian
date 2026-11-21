@@ -2,7 +2,7 @@
 
 Meridian is an alerting system: it attaches to data sources on one end and reports incidents and their resolution on the other — primarily as alert webhook payloads (open / update / resolve). Direct Slack delivery is a secondary option when you want channel posts without a webhook consumer.
 
-The name fits that job. A meridian is a reference line — the threshold between quiet and page — and a pathway that carries signal from source to sink. An alert is the culmination: not every reading, only the moments that become an incident.
+A meridian is a reference line — the threshold between quiet and page — and a pathway that carries signal from source to sink. An alert is the culmination: not every reading, only the moments that become an incident.
 
 ## Stack
 
