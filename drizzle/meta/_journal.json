@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1794602247837,
+      "tag": "0000_m1_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794603514374,
+      "tag": "0001_connection_secret",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794603803517,
+      "tag": "0002_job_health",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1794604859704,
+      "tag": "0003_monitors",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1794605398121,
+      "tag": "0004_m6_job_monitor_surface",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1794612800000,
+      "tag": "0005_monitor_jobs",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1794684000000,
+      "tag": "0006_monitor_severity_config",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1794770000000,
+      "tag": "0007_monitor_state_alert_opened_at",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1794780000000,
+      "tag": "0008_monitor_notify_mode",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1794860000000,
+      "tag": "0009_monitor_state_page_severity",
+      "breakpoints": true
+    }
+  ]
+}

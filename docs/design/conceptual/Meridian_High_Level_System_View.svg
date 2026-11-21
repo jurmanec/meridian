@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Meridian — high-level system view</title>
+  <desc id="desc">Data sources connect into Meridian, which evaluates thresholds and reports incidents primarily as alert webhook payloads, with Slack as a secondary option.</desc>
+
+  <rect width="960" height="420" fill="#F5F4F1"/>
+  <text x="480" y="42" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="600" fill="#1B2A4A">Meridian — high-level system view</text>
+
+  <!-- Data sources -->
+  <rect x="40" y="80" width="220" height="280" rx="14" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="1.5"/>
+  <text x="150" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1B2A4A">Data sources</text>
+  <text x="150" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#5C6B7A">connections</text>
+  <rect x="60" y="160" width="180" height="48" rx="8" fill="#EEF6F4" stroke="#2F6F6A" stroke-width="1"/>
+  <text x="150" y="190" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#1B2A4A">DynamoDB</text>
+  <rect x="60" y="228" width="180" height="48" rx="8" fill="#F7F7F5" stroke="#8A93A0" stroke-width="1"/>
+  <text x="150" y="258" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14" fill="#5C6B7A">Other sources (later)</text>
+
+  <!-- Arrow 1 -->
+  <path d="M270 220 H310" stroke="#2F6F6A" stroke-width="2.5" fill="none"/>
+  <polygon points="310,212 328,220 310,228" fill="#2F6F6A"/>
+
+  <!-- Meridian -->
+  <rect x="340" y="80" width="260" height="280" rx="14" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="1.5"/>
+  <text x="470" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1B2A4A">Meridian</text>
+  <text x="470" y="134" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#5C6B7A">pathway from source to sink</text>
+  <line x1="470" y1="155" x2="470" y2="330" stroke="#2F6F6A" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="458" y="248" text-anchor="end" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#2F6F6A">threshold</text>
+  <text x="482" y="190" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1B2A4A">Collect from sources</text>
+  <text x="482" y="220" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1B2A4A">Evaluate thresholds</text>
+  <text x="482" y="250" text-anchor="start" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#1B2A4A">Open / update / resolve</text>
+
+  <!-- Arrow 2 -->
+  <path d="M610 220 H650" stroke="#2F6F6A" stroke-width="2.5" fill="none"/>
+  <polygon points="650,212 668,220 650,228" fill="#2F6F6A"/>
+
+  <!-- Incidents -->
+  <rect x="680" y="80" width="240" height="280" rx="14" fill="#FFFFFF" stroke="#1B2A4A" stroke-width="1.5"/>
+  <text x="800" y="112" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1B2A4A">Incidents</text>
+
+  <rect x="700" y="140" width="200" height="120" rx="10" fill="#EEF6F4" stroke="#2F6F6A" stroke-width="1.5"/>
+  <text x="800" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#1B2A4A">Alert webhook payloads</text>
+  <text x="800" y="188" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#5C6B7A">primary</text>
+  <rect x="716" y="206" width="52" height="28" rx="6" fill="#FFFFFF" stroke="#2F6F6A"/>
+  <text x="742" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1B2A4A">FIRING</text>
+  <rect x="774" y="206" width="52" height="28" rx="6" fill="#FFFFFF" stroke="#2F6F6A"/>
+  <text x="800" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1B2A4A">UPDATE</text>
+  <rect x="832" y="206" width="52" height="28" rx="6" fill="#FFFFFF" stroke="#2F6F6A"/>
+  <text x="858" y="225" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#1B2A4A">RESOLVED</text>
+
+  <rect x="700" y="280" width="200" height="48" rx="10" fill="#F7F7F5" stroke="#8A93A0" stroke-width="1"/>
+  <text x="800" y="309" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#5C6B7A">Slack (secondary option)</text>
+</svg>
