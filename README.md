@@ -4,8 +4,6 @@ Meridian is an alerting system: it attaches to data sources on one end and repor
 
 The name fits that job. A meridian is a reference line — the threshold between quiet and page — and a pathway that carries signal from source to sink. An alert is the culmination: not every reading, only the moments that become an incident.
 
-Local package and Compose project still use `p2v3`; the public product name is Meridian.
-
 ## Stack
 
 - Next.js (App Router) + TypeScript + Tailwind / shadcn
